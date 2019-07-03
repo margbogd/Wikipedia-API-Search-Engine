@@ -1,0 +1,89 @@
+body {
+  background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+  background-size: 400%;
+  background-repeat: repeat-X;
+  animation: background 50s linear infinite;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@keyframes background {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+h2 {
+  font-family: "IM Fell French Canon SC", serif;
+  font-size: 35px;
+  margin-top: 35px;
+  text-shadow: 2px 2px 5px;
+  text-align: center;
+}
+
+#lil-rocket {
+  text-shadow: none;
+}
+
+#lil-rocket:hover {
+  color: #005ce6;
+}
+
+#search_container {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#random-link {
+  vertical-align: top;
+  padding-left: 0.1em;
+}
+
+#custom-search-input {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.card-block {
+  padding: 1em;
+  border: 1px solid lightgray;
+  margin-bottom: 1em;
+  width: 75%;
+  margin: 0 auto 1em;
+}
+
+#visit-btn {
+  width: 40%;
+}
+
+h3 {
+  font-family: 'Tajawal', sans-serif;
+}
+
+h3.card-title {
+  font-family: 'Tajawal', sans-serif;
+  margin-top: 0;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #custom-search-input {
+    width: 100%;
+  }
+  .card-block {
+    width: 100%;
+  }
+}
+
+#results {
+  height: 40em !important;
+  overflow: auto;
+}
