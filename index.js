@@ -2,7 +2,7 @@ function getWikiPage(title) {
   $.ajax({
     type: "GET",
     url:
-      "https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts|info&piprop=thumbnail&pithumbsize=200&pilimit=max&inprop=url&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=" +
+      "your api goes here" +
       title +
       "&callback=JSON_CALLBACK",
     // contentType: 'application/jsonp; charset=utf-8',
